@@ -102,7 +102,10 @@ class ComposerStaticInit250cca31eaa7e244c36e76e8a5eadd50
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\Translatable\\' => 20,
+            'Spatie\\Tags\\' => 12,
             'Spatie\\Once\\' => 12,
+            'Spatie\\EloquentSortable\\' => 24,
         ),
         'R' => 
         array (
@@ -366,9 +369,21 @@ class ComposerStaticInit250cca31eaa7e244c36e76e8a5eadd50
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Spatie\\Translatable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-translatable/src',
+        ),
+        'Spatie\\Tags\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-tags/src',
+        ),
         'Spatie\\Once\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/once/src',
+        ),
+        'Spatie\\EloquentSortable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/eloquent-sortable/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -680,6 +695,9 @@ class ComposerStaticInit250cca31eaa7e244c36e76e8a5eadd50
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Comment' => __DIR__ . '/../..' . '/app/Models/Comment.php',
+        'App\\Models\\Favorite' => __DIR__ . '/../..' . '/app/Models/Favorite.php',
+        'App\\Models\\Like' => __DIR__ . '/../..' . '/app/Models/Like.php',
         'App\\Models\\ListItem' => __DIR__ . '/../..' . '/app/Models/ListItem.php',
         'App\\Models\\Listicle' => __DIR__ . '/../..' . '/app/Models/Listicle.php',
         'App\\Models\\Membership' => __DIR__ . '/../..' . '/app/Models/Membership.php',
@@ -920,6 +938,7 @@ class ComposerStaticInit250cca31eaa7e244c36e76e8a5eadd50
         'Database\\Factories\\ListicleFactory' => __DIR__ . '/../..' . '/database/factories/ListicleFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
+        'Database\\Seeders\\ListicleSeeder' => __DIR__ . '/../..' . '/database/seeders/ListicleSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -5405,9 +5424,20 @@ class ComposerStaticInit250cca31eaa7e244c36e76e8a5eadd50
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'Spatie\\EloquentSortable\\EloquentSortableServiceProvider' => __DIR__ . '/..' . '/spatie/eloquent-sortable/src/EloquentSortableServiceProvider.php',
+        'Spatie\\EloquentSortable\\Sortable' => __DIR__ . '/..' . '/spatie/eloquent-sortable/src/Sortable.php',
+        'Spatie\\EloquentSortable\\SortableTrait' => __DIR__ . '/..' . '/spatie/eloquent-sortable/src/SortableTrait.php',
         'Spatie\\Once\\Backtrace' => __DIR__ . '/..' . '/spatie/once/src/Backtrace.php',
         'Spatie\\Once\\Cache' => __DIR__ . '/..' . '/spatie/once/src/Cache.php',
         'Spatie\\Once\\Listener' => __DIR__ . '/..' . '/spatie/once/src/Listener.php',
+        'Spatie\\Tags\\HasSlug' => __DIR__ . '/..' . '/spatie/laravel-tags/src/HasSlug.php',
+        'Spatie\\Tags\\HasTags' => __DIR__ . '/..' . '/spatie/laravel-tags/src/HasTags.php',
+        'Spatie\\Tags\\Tag' => __DIR__ . '/..' . '/spatie/laravel-tags/src/Tag.php',
+        'Spatie\\Tags\\TagsServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-tags/src/TagsServiceProvider.php',
+        'Spatie\\Translatable\\Events\\TranslationHasBeenSet' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/Events/TranslationHasBeenSet.php',
+        'Spatie\\Translatable\\Exceptions\\AttributeIsNotTranslatable' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/Exceptions/AttributeIsNotTranslatable.php',
+        'Spatie\\Translatable\\HasTranslations' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/HasTranslations.php',
+        'Spatie\\Translatable\\TranslatableServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/TranslatableServiceProvider.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',

@@ -106,4 +106,25 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
+  'spatie/eloquent-sortable' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\EloquentSortable\\EloquentSortableServiceProvider',
+    ),
+  ),
+  'spatie/laravel-tags' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Tags\\TagsServiceProvider',
+    ),
+  ),
+  'spatie/laravel-translatable' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Translatable\\TranslatableServiceProvider',
+    ),
+  ),
 );
