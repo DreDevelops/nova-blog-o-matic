@@ -1,0 +1,51 @@
+[2020-10-09 08:37:50] local.ERROR: Command "nova" is not defined.
+
+Did you mean one of these?
+    nova:action
+    nova:asset
+    nova:card
+    nova:custom-filter
+    nova:dashboard
+    nova:field
+    nova:filter
+    nova:install
+    nova:lens
+    nova:partition
+    nova:publish
+    nova:resource
+    nova:resource-tool
+    nova:stubs
+    nova:theme
+    nova:tool
+    nova:trend
+    nova:user
+    nova:value {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"nova\" is not defined.
+
+Did you mean one of these?
+    nova:action
+    nova:asset
+    nova:card
+    nova:custom-filter
+    nova:dashboard
+    nova:field
+    nova:filter
+    nova:install
+    nova:lens
+    nova:partition
+    nova:publish
+    nova:resource
+    nova:resource-tool
+    nova:stubs
+    nova:theme
+    nova:tool
+    nova:trend
+    nova:user
+    nova:value at /Users/dre/Documents/repos/blogOmatic/vendor/symfony/console/Application.php:651)
+[stacktrace]
+#0 /Users/dre/Documents/repos/blogOmatic/vendor/symfony/console/Application.php(230): Symfony\\Component\\Console\\Application->find('nova')
+#1 /Users/dre/Documents/repos/blogOmatic/vendor/symfony/console/Application.php(142): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/dre/Documents/repos/blogOmatic/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/dre/Documents/repos/blogOmatic/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/dre/Documents/repos/blogOmatic/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
