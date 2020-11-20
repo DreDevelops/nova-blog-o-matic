@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class ListItem extends Model
 {
     use HasFactory;
+
+    public function listicle()
+    {
+    	return $this->belongsTo('Listicle');
+    }
 }

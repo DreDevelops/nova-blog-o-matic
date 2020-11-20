@@ -5,13 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Listicle extends Model
+class Favorite extends Model
 {
     use HasFactory;
 
-    public function listItems()
+    public function post()
     {
-    	return $this->hasMany('ListItem');
+    	return $this->belongsTo('Post');
     }
 
     public function user()
